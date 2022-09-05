@@ -38,23 +38,23 @@ b) If you use AUTOGRAF regularly, you can also add it permanently to Metashape b
 
 Both (a and b) should result in a GUI looking like this:
 
-![Alt text](/images/AUTOGRAF_GUI.png?raw=true "Optional Title")
+![Alt text](/images/1.png?raw=true "Optional Title")
 
 ## Using AUTOGRAF
 
 AUTOGRAF follows the methodology introduced by Wild et al. (in preparation)[^1]. The general workflow is summarised in the following workflow chart[^1]: 
-![Alt text](/images/AUTOGRAF_methodology.png?raw=true "Optional Title")
+![Alt text](/images/2.png?raw=true "Optional Title")
 
 ### Existing network of oriented images
 A prerequisite of the currently implemented version of AUTOGRAF is that a network of oriented cameras exists. This network must be acquired at the studied site prior to using AUTOGRAF as AUTOGRAF uses the existing network to incrementally orient and add new photographs. In Metashape terminology this network is realised through a "main" chunk containing all oriented images. **IMPORTANT:** this "main" chunk must be the first chunk in the list of chunks: 
 <p align="center">
-<img src="/images/main_chunk.PNG?raw=true" alt="Sublime's custom image"/> 
+<img src="/images/3.PNG?raw=true" alt="Sublime's custom image"/> 
 </p>
 
 ### How to pass photos to AUTOGRAF
 As input AUTOGRAF expects one folder, containing all subfolders that need to be processed. A subfolder contains the images of one graffito: 
 <p align="center">
-<img src="/images/selectfolder.png?raw=true" alt="Sublime's custom image"/> 
+<img src="/images/5.png?raw=true" alt="Sublime's custom image"/> 
 </p>
 
 ### Run AUTOGRAF
