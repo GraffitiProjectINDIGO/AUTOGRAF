@@ -72,7 +72,11 @@ Currently, AUTOGRAF still has the following limitations:
 All those things can be easily altered in the code for your own use but we will consider implementing above-mentioned features in the future (your feedback is thus highly appreciated!) Please help us improving AUTOGRAF by raising an issue here on GitHub or directly write an E-Mail to bewild@projectindigo.eu
 
 -----------------------------------------------------------------------------------------------------------------------
+### How to cite AUTOGRAF
+For citing the methodology:
+Wild, B., Verhoeven, G., Schlegel, J., Wogrin, S., Wieser, M., Ressl, C., Otepka-Schremmer, J., Pfeifer, N. 2022. AUTOGRAF - AUTomated Orthorectification of GRAFfiti photos. Heritage. Submitted.
 
+if you use the provided code please also cite this:
+Wild B. 2022. AUTOGRAF (AUTomated Orthorectification of GRAFfiti photos). Zenodo. https://doi.org/10.5281/zenodo.7049950
 
-[^1]: Wild, B., Verhoeven, G., Schlegel, J., Wogrin, S., Wieser, M., Ressl, C., Otepka-Schremmer, J., Pfeifer, N. 2022. AUTOGRAF - AUTomated Orthorectification of GRAFfiti photos. Heritage. Submitted.
-
+Wild, B., Verhoeven, G., Schlegel, J., Wogrin, S., Wieser, M., Ressl, C., Otepka-Schremmer, J., Pfeifer, N. 2022. AUTOGRAF - AUTomated Orthorectification of GRAFfiti photos. Heritage. Submitted.
