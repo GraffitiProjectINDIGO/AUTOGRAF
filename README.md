@@ -42,7 +42,7 @@ Both (a and b) should result in a GUI looking like this:
 
 ## Using AUTOGRAF
 
-AUTOGRAF follows the methodology introduced by Wild et al. (in preparation)[^1]. The general workflow is summarised in the following workflow chart[^1]: 
+AUTOGRAF follows the methodology introduced by Wild et al. (in preparation)<sup>1</sup>. The general workflow is summarised in the following workflow chart<sup>1</sup>: 
 ![Alt text](/images/2.png?raw=true "Optional Title")
 
 ### Existing network of oriented images
