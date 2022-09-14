@@ -1,6 +1,6 @@
 ![Alt text](/images/AUTOGRAF_logo/INDIGO_logoAUTOGRAF.png?raw=true "Optional Title")
 ## Short Description
-AUTOGRAF (**AUT**omated **O**rthorectification of **GRAF**fiti photos) is an open-source python-based Metashape add-on which enables the automated orthorectification of graffiti at a specific site of interest. It employs state-of-the art photogrammetric computer vision techniques to allow highly accurate georeferencing and orthorectification of large numbers of photographs. A paper detailing AUTOGRAF's methodology will soon be submitted to Heritage (an MDPI journal). 
+AUTOGRAF (**AUT**omated **O**rthorectification of **GRAF**fiti photos) is an open-source python-based Metashape add-on which enables the automated orthorectification of graffiti photos at a specific site of interest. It employs state-of-the art photogrammetric computer vision techniques to allow highly accurate georeferencing and orthorectification of large numbers of photographs. A paper detailing AUTOGRAF's methodology will soon be submitted to Heritage (an MDPI journal). 
 
 AUTOGRAF is developed as part of the [INDIGO project](https://projectindigo.eu/) (In-ventory and DI-sseminate G-raffiti along the d-O-naukanal) carried out by the [Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology](https://archpro.lbg.ac.at/) in close collaboration with the [GEO Department of TU Wien University](https://www.geo.tuwien.ac.at/).
 
