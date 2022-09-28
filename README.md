@@ -54,7 +54,7 @@ A prerequisite of the currently implemented version of AUTOGRAF is that a networ
 ### How to pass photos to AUTOGRAF
 As input AUTOGRAF expects one folder, containing all subfolders that need to be processed. A subfolder contains the images of one graffito: 
 <p align="center">
-<img src="/images/5.png?raw=true" alt="Sublime's custom image"/> 
+<img src="/images/5.png_new?raw=true" alt="Sublime's custom image"/> 
 </p>
 
 ### Run AUTOGRAF
