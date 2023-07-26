@@ -27,7 +27,7 @@ Some external python packages must installed into Metashape's python environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 ### 3 - Add AUTOGRAF to Metashape
-First you have to download the AUTOGRAF.py script from this repository (./src/AUTOGRAF.py). Then you must add it to the METASHAPE GUI. There are several ways to do this. For example as follows (a or b): 
+First, you have to download the AUTOGRAF.py script from this repository (./src/AUTOGRAF.py). Then you must add it to the METASHAPE GUI. There are several ways to do this. For example as follows (a or b): 
 
 a) In the Metahsape GUI open *Tools -> Run Script -> select the AUTOGRAF.py*
 
