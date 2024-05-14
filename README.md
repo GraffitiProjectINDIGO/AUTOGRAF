@@ -67,7 +67,7 @@ AUTOGRAF is started by clicking the "Run" button in the dropdown menu. AUTOGRAF 
 Currently, AUTOGRAF still has the following limitations: 
 - only Metashape version 1.8 is supported;
 - it only supports rectilinear lenses (e.g. fisheye lenses are NOT supported yet);
-- only one coordinate reference system is supported now (MGI/Austria GK East, EPSG:31256; https://epsg.io/31256).
+- only one coordinate reference system is supported (MGI/Austria GK East, EPSG:31256; https://epsg.io/31256).
 
 All those things can be easily altered in the code for your own use, but we might consider implementing the above-mentioned features in the future (your feedback is thus highly appreciated!) Please help us improve AUTOGRAF by raising an issue here on GitHub or directly writing an E-Mail to bewild@projectindigo.eu
 
