@@ -1,16 +1,16 @@
 ![Alt text](/images/AUTOGRAF_logo/INDIGO_logoAUTOGRAF.png?raw=true "Optional Title")
 ## Short Description
-AUTOGRAF (**AUT**omated **O**rthorectification of **GRAF**fiti photos) is an open-source python-based Metashape add-on which enables the automated orthorectification of graffiti photos at a specific site of interest. It employs state-of-the art photogrammetric computer vision techniques to allow highly accurate georeferencing and orthorectification of large numbers of photographs. A paper detailing AUTOGRAF's methodology will soon be submitted to Heritage (an MDPI journal). 
+AUTOGRAF (**AUT**omated **O**rthorectification of **GRAF**fiti photos) is an open-source Python-based Metashape add-on that enables the automated orthorectification of graffiti photos at a specific site of interest. It employs state-of-the-art photogrammetric computer vision techniques to allow highly accurate georeferencing and orthorectification of large numbers of photographs. A paper detailing AUTOGRAF's methodology was published in the MDPI-journal Heritage. 
 
 AUTOGRAF is developed as part of the [INDIGO project](https://projectindigo.eu/) (In-ventory and DI-sseminate G-raffiti along the d-O-naukanal) carried out by the [Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology](https://archpro.lbg.ac.at/) in close collaboration with the [GEO Department of TU Wien University](https://www.geo.tuwien.ac.at/).
 
 ## How to set up AUTOGRAF 
 Before AUTOGRAF can be used, the following preparatory steps [1-3] need to be performed: 
 ### 1 - Install Agisoft's Metashape
-Agisoft's Metashape version 1.8.3 (earlier version might not be working as AUTOGRAF was designed and tested on 1.8.3) must be installed and the license must be active. More info here: https://www.agisoft.com/downloads/installer/
+Agisoft's Metashape version 1.8.3 (earlier versions might not work as AUTOGRAF was designed and tested on 1.8.3) must be installed, and the license must be active. More info here: https://www.agisoft.com/downloads/installer/
 
 ### 2 - Install external python packages
-Some external python packages must installed into Metashape's python environment. These packages are: *numpy*, *matplotlib*, *scikit-image*. To do this the following command must be executed via the command line (note that programme paths might need to be adapted)
+Some external Python packages must installed into Metashape's Python environment. These packages are: *numpy*, *matplotlib*, *scikit-image*. To do this the following command must be executed via the command line (note that programme paths might need to be adapted)
 
 #### on Windows
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
@@ -27,7 +27,7 @@ Some external python packages must installed into Metashape's python environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 ### 3 - Add AUTOGRAF to Metashape
-First, you have to download the AUTOGRAF.py script from this repository (./src/AUTOGRAF.py). Then you must add it to the METASHAPE GUI. There are several ways to do this. For example as follows (a or b): 
+First, you have to download the AUTOGRAF.py script from this repository (./src/AUTOGRAF.py). Then you must add it to the METASHAPE GUI. There are several ways to do this. For example, as follows (a or b): 
 
 a) In the Metahsape GUI open *Tools -> Run Script -> select the AUTOGRAF.py*
 
@@ -52,7 +52,7 @@ A prerequisite of the currently implemented version of AUTOGRAF is that a networ
 </p>
 
 ### How to pass photos to AUTOGRAF
-As input AUTOGRAF expects one folder, containing all subfolders that need to be processed. A subfolder contains the images of one graffito: 
+As input, AUTOGRAF expects one folder, containing all subfolders that need to be processed. A subfolder contains the images of one graffito: 
 <p align="center">
 <img src="/images/fig5_new2.png?raw=true" alt="Sublime's custom image"/> 
 </p>
@@ -65,18 +65,18 @@ AUTOGRAF is started by clicking the "Run" button in the dropdown menu. AUTOGRAF 
 
 ### Please Note
 Currently, AUTOGRAF still has the following limitations: 
-- only Metashape version 1.8 is supported
-- it only supports rectilinear lenses (e.g. fisheye lense are NOT supported yet)
-- only the Austrian MGI / GK EAST CRS is supported (EPSG: 31256)
+- only Metashape version 1.8 is supported;
+- it only supports rectilinear lenses (e.g. fisheye lenses are NOT supported yet);
+- only one coordinate reference system is supported now (MGI/Austria GK East, EPSG:31256; https://epsg.io/31256).
 
-All those things can be easily altered in the code for your own use but we will consider implementing above-mentioned features in the future (your feedback is thus highly appreciated!) Please help us improving AUTOGRAF by raising an issue here on GitHub or directly write an E-Mail to bewild@projectindigo.eu
+All those things can be easily altered in the code for your own use, but we might consider implementing the above-mentioned features in the future (your feedback is thus highly appreciated!) Please help us improve AUTOGRAF by raising an issue here on GitHub or directly writing an E-Mail to bewild@projectindigo.eu
 
 -----------------------------------------------------------------------------------------------------------------------
 ### How to cite AUTOGRAF
-For citing the methodology:
+For citing the methodology, please use this reference:
 
-<sup>1</sup>**Wild, B., Verhoeven, G., Schlegel, J., Wogrin, S., Wieser, M., Ressl, C., Otepka-Schremmer, J., Pfeifer, N. 2022. AUTOGRAF - AUTomated Orthorectification of GRAFfiti photos. Heritage. https://doi.org/10.3390/heritage5040155**
+<sup>1</sup>**Wild, B., Verhoeven, G., Schlegel, J., Wogrin, S., Wieser, M., Ressl, C., Otepka-Schremmer, J., Pfeifer, N. 2022. AUTOGRAF - AUTomated Orthorectification of GRAFfiti photos. Heritage, 5(4), 2987–3009. https://doi.org/10.3390/heritage5040155**
 
-if you use the provided code please also cite this:
+If you use the provided code, please also cite AUTOGRAF as follows:
 
 **Wild B. 2022. AUTOGRAF (AUTomated Orthorectification of GRAFfiti photos). Zenodo. https://doi.org/10.5281/zenodo.7049950**
